@@ -1,0 +1,39 @@
+local library = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ShaddowScripts/Main/main/Library"))()
+
+local Main = library:CreateWindow("Th1sFreaks - Hub [ V1 - Brookhaveb ]","Crimson")
+
+local tab = Main:CreateTab("Scripts")
+
+tab:CreateButton("Infinite Yield",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  print("clicked")
+end)
+
+tab:CreateButton("Nameless Admin",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+  print("clicked")
+end)
+
+tab:CreateButton("RedzHub",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))() 
+  print("clicked")
+end)
+
+tab:CreateButton("Icehub",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMae17/NewIceHub/main/Brookhaven"))()
+  print("clicked")
+end)
+
+tab:CreateButton("GhostHub",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+  print("clicked")
+end)
+
+tab:CreateButton("System Broken",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+  print("clicked")
+end)
+
+tab:CreateButton("Mais scripts em breve e uma nova UI em breve...",function()
+print("clicked")
+end)
